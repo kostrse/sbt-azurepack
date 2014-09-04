@@ -1,3 +1,5 @@
+sbtPlugin := true
+
 name := "sbt-azurepack"
 
 organization := "io.kostrse"
