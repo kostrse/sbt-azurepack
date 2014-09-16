@@ -1,3 +1,5 @@
+import sbtazurepack.CsPkg._
+
 name  := "sprayapp2"
 
 version := "1.0"
@@ -13,3 +15,5 @@ libraryDependencies ++= {
     "io.spray"            %   "spray-routing" % sprayV
   )
 }
+
+cloudServiceRole := packageRole

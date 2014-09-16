@@ -1,0 +1,3 @@
+package sbtazurepack.settings
+
+class CloudServiceRoleDefinition
