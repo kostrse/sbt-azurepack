@@ -13,3 +13,5 @@ licenses := Seq("MIT License" -> url("https://github.com/kostrse/sbt-azurepack/b
 scalaVersion := "2.10.3"
 
 scalacOptions := Seq("-deprecation", "-unchecked")
+
+libraryDependencies += "org.scalatest" % "scalatest_2.10" % "2.2.1" % "test"
